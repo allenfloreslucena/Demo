@@ -8,30 +8,7 @@ controllerName="demo.Demo.controller.View1">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<Panel expandable="true" expanded="false" headerText="Header Info" width="auto" class="sapUiResponsiveMargin">
-						<content>
-							<f:Form>
-								<f:layout>
-									<f:ResponsiveGridLayout/>
-								</f:layout>
-								<f:FormContainer>
-									<f:formElements>
-										<f:FormElement label="Company Code" id="ElementCC">
-											<f:fields>
-												<Input id="inputCC" width="50%"/>
-											</f:fields>
-										</f:FormElement>
-										<f:FormElement label="Plant" id="ElementPlant">
-											<f:fields>
-												<Input id="inputPlant" width="50%"/>
-											</f:fields>
-										</f:FormElement>
-									</f:formElements>
-								</f:FormContainer>
-								
-							</f:Form>
-						</content>
-					</Panel>
+					
 					<Panel expandable="true" expanded="false" headerText="Item To Be Packed" width="auto" class="sapUiResponsiveMargin">
 						<content>
 							<f:Form>
